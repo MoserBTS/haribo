@@ -1,4 +1,10 @@
-export interface Model1 {
+
+export interface CardProps {
     nom: string;
-    prenom: string;
+    prix: number;
+    poids: number;
+    unite: string;
+    img: string;
 }
+
+export const API_URL_BASE = "https://btsastier.alwaysdata.net"

@@ -5,5 +5,5 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./dist:/usr/local/apache2/htdocs/:ro
-      - ./container/vhost.conf:/usr/local/apache2/conf/httpd.conf:ro
+      - ../dist:/usr/local/apache2/htdocs/:ro
+      - ./vhost.conf:/usr/local/apache2/conf/httpd.conf:ro

@@ -36,7 +36,7 @@ export const Home = () => {
                 gridTemplateColumns: "repeat(auto-fill, minmax(250px, 250px))",
             }}
         >
-            {haribo.map((haribo, index) => (
+            {haribo.map((haribo) => (
                 <CardCompteur
                     {...haribo} //“prends toutes les propriétés de l’objet et transforme-les en props React”.
                 />
